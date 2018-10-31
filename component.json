@@ -1,0 +1,24 @@
+{
+  "title": "Quick Books Cloud Connector",
+  "description": "This is a cloud connector for the quick books desktop to the XPC server via Quick Books Web Connector",
+  "docsUrl": "https://github.com/elasticio/petstore-component-nodejs",
+  "credentials": {
+    "fields": {
+      "apiKey": {
+        "label": "API key",
+        "required": true,
+        "viewClass": "TextFieldWithNoteView",
+        "note": "Please use <b>elasticio</b> as API key. For more details see <a href='https://petstore.elastic.io/docs/' target='_blank'>Petstore API docs</a>."
+      }
+    }
+  },
+  "actions": {
+    "authenticator": {
+      "main": "./lib/actions/authenticator.js",
+      "title": "User Credentials Authenticator",
+      "metadata": {
+        "out": "./lib/schemas/authenticator.out.json"
+      }
+    }
+  }
+}

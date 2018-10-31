@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "required": true,
+      "title": "id"
+    },
+    "attachments": {
+      "type": "object",
+      "required": false,
+      "title": "attachments"
+    },
+    "body": {
+      "type": "string",
+      "required": true,
+      "title": "body"
+    },
+    "headers": {
+      "type": "object",
+      "required": false,
+      "title": "headers"
+    },
+    "metadata": {
+      "type": "object",
+      "required": false,
+      "title": "metadata"
+    }
+  }
+}

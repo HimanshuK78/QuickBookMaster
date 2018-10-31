@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+    "bind": {
+      "type": "string",
+      "required": false,
+      "title": "bind"
+    }
+  }
+}
